@@ -1,7 +1,7 @@
 {
   "name": "dz-next-log",
-  "version": "1.0.1",
-  "description": "JSON logging patcher for Next.js",
+  "version": "1.0.2",
+  "description": "JSON logging for Next.js",
   "main": "index.js",
   "scripts": {
     "lint": "xxxx"
