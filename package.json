@@ -1,0 +1,32 @@
+{
+  "name": "dz-next-log",
+  "version": "1.0.1",
+  "description": "JSON logging patcher for Next.js",
+  "main": "index.js",
+  "scripts": {
+    "lint": "xxxx"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yanggongzhou/dz-next-log.git"
+  },
+  "keywords": [
+    "next.js",
+    "next",
+    "logging",
+    "logger",
+    "log",
+    "json"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "next": ">=9.0.0"
+  },
+  "devDependencies": {
+    "log4js": "^6.9.1",
+    "next": "^12.3.4"
+  },
+  "dependencies": {
+    "cosmiconfig": "^8.1.3"
+  }
+}
