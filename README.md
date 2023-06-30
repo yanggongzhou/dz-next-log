@@ -20,5 +20,14 @@ You can add this directly to your `package.json` scripts, to make it easier to s
     "start": "NODE_OPTIONS='-r next-logger' next start"
 },
 ```
+### Adding to `dz-next-log.config.js` Scripts
+```
+module.exports = {
+    platform: "Webfic",
+    link: 'https://www.webfic.com',
+    ddUrl: "https://oapi.dingtalk.com/robot/send?access_token=7667bee5471210ebbbf0b201d20b82146b9d8a61d382315e6d6704c28d497e50",
+    ddTitle: "海外【SEO】告警"
+}
+```
 
 #### 参考： https://github.com/sainsburys-tech/next-logger
